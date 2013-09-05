@@ -23,4 +23,5 @@ object ProjectOne extends App {
     println("multOfThreeAndFive(1000) = " + multOfThreeAndFive(1000))
     println("mult2(1000) = " + mult2(1000))
   }
+
 }
