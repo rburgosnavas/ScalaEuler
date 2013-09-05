@@ -10,18 +10,9 @@ object ProjectOne extends App {
     loop(n - 1, 0)
   }
 
-  def mult2(target: Int): Double = {
-    def sumDivBy(n: Int): Double = {
-      val p = (target - 1) / n
-      n * (p * (p + 1)) / 2
-    }
-    sumDivBy(3) + sumDivBy(5) - sumDivBy(15)
-  }
-
   override def main(args: Array[String]) {
     super.main(args)
     println("multOfThreeAndFive(1000) = " + multOfThreeAndFive(1000))
-    println("mult2(1000) = " + mult2(1000))
   }
 
 }
